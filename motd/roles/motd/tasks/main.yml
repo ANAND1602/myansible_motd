@@ -4,6 +4,6 @@
   ansible.builtin.template:
     src: motd.j2
     dest: /tmp
-    owner: anand
-    group: anand
+    owner: ansible
+    group: ansible
     mode: 0444
