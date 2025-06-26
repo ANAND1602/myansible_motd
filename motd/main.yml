@@ -2,5 +2,6 @@
 - name: use motd role playbook
   hosts: all
   become: true
+  become_method: sudo
   roles:
     - role: motd
