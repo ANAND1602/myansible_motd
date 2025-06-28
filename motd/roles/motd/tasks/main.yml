@@ -3,8 +3,8 @@
 - name: deliver motd file
   ansible.builtin.template:
     src: motd.j2
-    dest: /etc/motd
-    owner: root
-    group: root
+    dest: /home/anand
+    owner: anand
+    group: anand
     mode: 0644
   become: true
